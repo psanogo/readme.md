@@ -1,50 +1,61 @@
-Hi 👋, this is ..
-🚀 Mobile • 🌐 Web • 🔧 Embedded • 🔒 Security • 🤖 AI/ML
+[![Build](https://github.com/googlemaps-samples/codelab-maps-platform-101-android-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/googlemaps-samples/codelab-maps-platform-101-android-kotlin/actions/workflows/build.yml)
 
-█████╗  ██████╔╝██║   ██║██║ █╗ ██║██║ █╗ ██║███████║    ██║     ███████║██████╔╝███████╗
-Building at the intersection of mobile, web, and embedded systems
+![Contributors](https://img.shields.io/github/contributors/googlemaps-samples/codelab-maps-platform-101-android-kotlin?color=green)
+[![License](https://img.shields.io/github/license/googlemaps-samples/codelab-maps-platform-101-android-kotlin?color=blue)][license]
+[![StackOverflow](https://img.shields.io/stackexchange/stackoverflow/t/google-maps?color=orange&label=google-maps&logo=stackoverflow)](https://stackoverflow.com/questions/tagged/google-maps)
+[![Discord](https://img.shields.io/discord/676948200904589322?color=6A7EC2&logo=discord&logoColor=ffffff)][Discord server]
 
-[GitHub followers](https://github.com/psanogo?tab=followers) • [Personal Site](https://your-website.com) • [App Store](https://apps.apple.com/developer/your-name/idXXXXXXXXX) • [Hugging Face](https://huggingface.co/psanogo) • [Ollama](https://ollama.ai/psanogo)
+# Google Maps Platform 101: Android Codelab
 
-I operate across every possible edge and node.
+![App screenshot](app_screenshot.png)
 
-### Development Philosophy
-- **Ship first, optimize later** - But make it modular so you can swap parts without breaking everything
-- **Automate workflows**
-  - From node-starter with scenario-specific branches
-  - To publishing tools like `structured-prompts` on PyPI.
-  - App Store Icon Pipelines, App Store Connect API wrapper, Xcode Mcp, etc
-- **Planning**
-  - MacOS Automation Platform - For IOS app screenshots and user testing
-  - Nano Banana Video Editor - For rushing to global market(s) new ideas
-  - Appstore Preview Generator
-- **Find arbitrage everywhere** - Whether it's discovering that 65% of Denmark uses iOS or rotating through free GPU tiers
-- **Composable EVERYTHING** - from Next.js + Vite monorepo experiments where each framework does what it does best, to finding the cheapest GPU compute by orchestrating spot instances and free tiers.
-- **Resources I ship with** - Tailscale, Uptime Kuma, Doppler
+## Description
 
-### 📱 Shipped to Apple App Store
-**CaringMind (v0.0.0)**
-AI companion app providing advocacy, augmentation, and enhancement. Your personal AI that actually cares.
+Accompanying starter and solution code for the [Google Maps Platform 101: Android Codelab][codelab], a codelab that teaches you how to integrate [Maps SDK for Android][android-sdk] into your app and use its core features.
 
-**CleanShots – Remove Photo Info (v1.1.01)**
-Privacy-focused photo metadata removal tool. Because your photos shouldn't tell everyone where you've been.
+## Requirements
 
-*Notes: This has been a humble start, and educating into the current ASO market; see iOS Localization & Cultural Branding Architecture*
+To run the samples, you will need:
 
-**SleepLoops (v1.0.0)**
-90-minute sleep cycle optimizer. Wake up sharp by harnessing your natural sleep rhythms.
+- To [sign up with Google Maps Platform]
+- A Google Maps Platform [project] with the **Maps SDK for Android** enabled
+- An [API key] associated with the project above ... follow the [API key instructions] if you're new to the process
+- Android Studio 3.6 or higher
 
-### 📦 Published on PyPI
-**ai-proxy-core (v0.4.43)**
-Minimal, reusable AI service handlers for Gemini and other LLMs. The universal proxy layer mentioned above.
+## Contributing
 
-*Providers: openai • google • ollama*
-*Services: Unified post requests, websockets, unique provider features (image generation)*
+Contributions are welcome and encouraged! If you'd like to contribute, send us a [pull request] and refer to our [code of conduct] and [contributing guide].
 
-**structured-prompts (v0.1.1)**
-A modular package for managing structured prompts with any LLM API. Makes LLM interactions predictable and testable.
+## Terms of Service
 
-### MOONSHOTS - Future Smart Glasses Fun
-**Cam Heart Rate, Respitory, Emotions CV**
-What if your phone camera could read your vitals as accurately as medical equipment?
+This sample uses Google Maps Platform services. Use of Google Maps Platform services through this sample is subject to the Google Maps Platform [Terms of Service].
 
+This sample is not a Google Maps Platform Core Service. Therefore, the Google Maps Platform Terms of Service (e.g. Technical Support Services, Service Level Agreements, and Deprecation Policy) do not apply to the code in this sample.
+
+## Support
+
+This sample is offered via an open source [license]. It is not governed by the Google Maps Platform Support [Technical Support Services Guidelines], the [SLA], or the [Deprecation Policy]. However, any Google Maps Platform services used by the sample remain subject to the Google Maps Platform Terms of Service.
+
+If you find a bug, or have a feature request, please [file an issue] on GitHub. If you would like to get answers to technical questions from other Google Maps Platform developers, ask through one of our [developer community channels]. If you'd like to contribute, please check the [contributing guide].
+
+You can also discuss this sample on our [Discord server].
+
+[codelab]: https://codelabs.developers.google.com/codelabs/maps-platform-101-android
+
+[android-sdk]: https://developers.google.com/maps/documentation/android-sdk
+[API key]: https://developers.google.com/maps/documentation/android-sdk/get-api-key
+[API key instructions]: https://developers.google.com/maps/documentation/android-sdk/config#step_3_add_your_api_key_to_the_project
+
+[code of conduct]: ?tab=coc-ov-file#readme
+[contributing guide]: CONTRIBUTING.md
+[Deprecation Policy]: https://cloud.google.com/maps-platform/terms
+[developer community channels]: https://developers.google.com/maps/developer-community
+[Discord server]: https://discord.gg/hYsWbmk
+[file an issue]: https://github.com/googlemaps-samples/codelab-maps-platform-101-android-kotlin/issues/new/choose
+[license]: LICENSE
+[pull request]: https://github.com/googlemaps-samples/codelab-maps-platform-101-android-kotlin/compare
+[project]: https://developers.google.com/maps/documentation/android-sdk/cloud-setup#enabling-apis
+[Sign up with Google Maps Platform]: https://console.cloud.google.com/google/maps-apis/start
+[SLA]: https://cloud.google.com/maps-platform/terms/sla
+[Technical Support Services Guidelines]: https://cloud.google.com/maps-platform/terms/tssg
+[Terms of Service]: https://cloud.google.com/maps-platform/terms
